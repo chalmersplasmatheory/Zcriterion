@@ -10,4 +10,4 @@ $$
 \mathcal{Z} = N_\mathrm{ava} + \ln{n_\mathrm{seed}} > 0,
 $$
 
-where $n_\mathrm{seed}$ is the total (normalized) seed density, and $\exp{N_\mathrm{(ava)}}$ is the avalanche gain factor. If you have any questions, please don't hesitate to reach out.
+where $n_\mathrm{seed}$ is the total (normalized) seed density, and $\exp{(N_\mathrm{ava})}$ is the avalanche gain factor. If you have any questions, please don't hesitate to reach out.
