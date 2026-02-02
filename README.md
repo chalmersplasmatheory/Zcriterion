@@ -4,10 +4,10 @@ This package collects some functions useful for evaluating the criterion for sig
 
 Also included is a module for self-consistently evaluating the electron temperature and the ion charge state distribution for a given Ohmic current, see `atomicPhysics.py`. The atomic data is obtained from [OPEN-ADAS](https://www.adas.ac.uk/openadas.php). It may be necessary to download additional data depending on which impurities are to be considered.
 
-The criterion exists in two versions, an analytical version that can evaluated immediately, and a semi-analytical version that requires a few numerical integration. For a detailed description to the expressions implemented in each version, see the source code or the article cited above. The criterion is defined as
+The criterion exists in two versions, an analytical version that can be evaluated immediately, and a semi-analytical version that requires a few numerical integrations. For a detailed description of the expressions implemented in each version, see the source code or the article cited above. The criterion is defined as
 
 $$
 \mathcal{Z} = N_\mathrm{ava} + \ln{n_\mathrm{seed}} > 0,
 $$
 
-where $n_\mathrm{seed}$ is the total (normalized) seed density, and $\exp{N_\mathrm{ava}}$ is the avalanche gain factor. If you have any questions, feel free to reach out.
+where $n_\mathrm{seed}$ is the total (normalized) seed density, and $\exp{N_\mathrm{(ava)}}$ is the avalanche gain factor. If you have any questions, please don't hesitate to reach out.
