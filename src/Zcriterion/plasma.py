@@ -229,7 +229,7 @@ def calc_spitzerCond(T_e,n_e,Z_eff):
     global e, c, m_e, mu0, eps0
 
     prefactor = (1 + 2.966*Z_eff + 0.753*Z_eff**2)/(1 + 1.198*Z_eff + 0.222*Z_eff**2)
-    sigma = prefactor*3*(2*np.pi)**(3/2)*eps0**2*(e*T_e)**(3/2)/(Z_eff*e**2*m_e**(1/2)*lnLc(T_e,n_e))
+    sigma = prefactor*3*(2*np.pi)**(3/2)*eps0**2*(e*T_e)**(3/2)/(Z_eff*e**2*m_e**(1/2)*lnLt(T_e,n_e))
 
     return sigma
 
